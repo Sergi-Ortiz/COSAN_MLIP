@@ -1,0 +1,113 @@
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+HETATM    1  C1  COS X   1       0.373   1.387   1.554  1.00  0.00      QMT  C
+HETATM    2  B2  COS X   1      -0.458   1.493   3.035  1.00  0.00      QMT  B
+HETATM    3  B3  COS X   1      -1.310  -0.061   3.145  1.00  0.00      QMT  B
+HETATM    4  B4  COS X   1      -0.080  -1.355   3.149  1.00  0.00      QMT  B
+HETATM    5  B5  COS X   1       0.243   0.187   4.024  1.00  0.00      QMT  B
+HETATM    6  B6  COS X   1       1.283   1.168   2.989  1.00  0.00      QMT  B
+HETATM    7  C7  COS X   1       1.475   0.235   1.564  1.00  0.00      QMT  C
+HETATM    8  B8  COS X   1      -1.200   0.770   1.579  1.00  0.00      QMT  B
+HETATM    9  B9  COS X   1      -0.990  -0.998   1.636  1.00  0.00      QMT  B
+HETATM   10  B10 COS X   1       0.779  -1.297   1.590  1.00  0.00      QMT  B
+HETATM   11  B11 COS X   1       1.522  -0.584   3.051  1.00  0.00      QMT  B
+HETATM   12  C12 COS X   1       1.143   0.924  -1.553  1.00  0.00      QMT  C
+HETATM   13  B13 COS X   1       1.641   0.236  -3.030  1.00  0.00      QMT  B
+HETATM   14  B14 COS X   1       0.699  -1.269  -3.129  1.00  0.00      QMT  B
+HETATM   15  B15 COS X   1      -1.028  -0.828  -3.138  1.00  0.00      QMT  B
+HETATM   16  B16 COS X   1       0.163   0.199  -4.020  1.00  0.00      QMT  B
+HETATM   17  B17 COS X   1       0.508   1.597  -2.997  1.00  0.00      QMT  B
+HETATM   18  C18 COS X   1      -0.400   1.323  -1.568  1.00  0.00      QMT  C
+HETATM   19  B19 COS X   1       1.366  -0.749  -1.569  1.00  0.00      QMT  B
+HETATM   20  B20 COS X   1      -0.275  -1.433  -1.615  1.00  0.00      QMT  B
+HETATM   21  B21 COS X   1      -1.392  -0.034  -1.588  1.00  0.00      QMT  B
+HETATM   22  B22 COS X   1      -1.136   0.947  -3.056  1.00  0.00      QMT  B
+HETATM   23 CO1  COS X   1       0.081   0.013   0.007  1.00  0.00      QMT Co
+HETATM   24  H24 COS X   1       0.649   2.327   1.067  1.00  0.00      QMT  H
+HETATM   25  H25 COS X   1      -0.819   2.554   3.419  1.00  0.00      QMT  H
+HETATM   26  H26 COS X   1      -2.343  -0.154   3.733  1.00  0.00      QMT  H
+HETATM   27  H27 COS X   1      -0.229  -2.381   3.736  1.00  0.00      QMT  H
+HETATM   28  H28 COS X   1       0.317   0.266   5.207  1.00  0.00      QMT  H
+HETATM   29  H29 COS X   1       2.111   1.963   3.264  1.00  0.00      QMT  H
+HETATM   30  H30 COS X   1       2.428   0.457   1.075  1.00  0.00      QMT  H
+HETATM   31  H31 COS X   1      -2.081   1.404   1.100  1.00  0.00      QMT  H
+HETATM   32  H32 COS X   1      -1.809  -1.787   1.277  1.00  0.00      QMT  H
+HETATM   33  H33 COS X   1       1.358  -2.224   1.131  1.00  0.00      QMT  H
+HETATM   34  H34 COS X   1       2.558  -0.998   3.452  1.00  0.00      QMT  H
+HETATM   35  H35 COS X   1       1.830   1.625  -1.069  1.00  0.00      QMT  H
+HETATM   36  H36 COS X   1       2.745   0.434  -3.413  1.00  0.00      QMT  H
+HETATM   37  H37 COS X   1       1.127  -2.221  -3.705  1.00  0.00      QMT  H
+HETATM   38  H38 COS X   1      -1.852  -1.461  -3.721  1.00  0.00      QMT  H
+HETATM   39  H39 COS X   1       0.195   0.292  -5.205  1.00  0.00      QMT  H
+HETATM   40  H40 COS X   1       0.797   2.705  -3.283  1.00  0.00      QMT  H
+HETATM   41  H41 COS X   1      -0.674   2.267  -1.090  1.00  0.00      QMT  H
+HETATM   42  H42 COS X   1       2.348  -1.201  -1.082  1.00  0.00      QMT  H
+HETATM   43  H43 COS X   1      -0.557  -2.531  -1.247  1.00  0.00      QMT  H
+HETATM   44  H44 COS X   1      -2.487   0.027  -1.138  1.00  0.00      QMT  H
+HETATM   45  H45 COS X   1      -2.004   1.644  -3.462  1.00  0.00      QMT  H
+CONECT   10    4    7    9   11
+CONECT   10   33
+CONECT   11    4    5    6    7
+CONECT   11   10   34
+CONECT   13   12   14   16   17
+CONECT   13   19   36
+CONECT   14   13   15   16   19
+CONECT   14   20   37
+CONECT   15   14   16   20   21
+CONECT   15   22   38
+CONECT   16   13   14   15   17
+CONECT   16   22   39
+CONECT   17   18   12   13   16
+CONECT   17   22   40
+CONECT   19   12   13   14   20
+CONECT   19   42
+CONECT    2    1    3    5    6
+CONECT    2    8   25
+CONECT   20   14   15   19   21
+CONECT   20   43
+CONECT   21   18   15   20   22
+CONECT   21   44
+CONECT   22   18   15   16   17
+CONECT   22   21   45
+CONECT    3    2    4    5    8
+CONECT    3    9   26
+CONECT    4    3    5    9   10
+CONECT    4   11   27
+CONECT    5    2    3    4    6
+CONECT    5   11   28
+CONECT    6    2    1    5    7
+CONECT    6   11   29
+CONECT    8    2    1    3    9
+CONECT    8   31
+CONECT    9    3    4    8   10
+CONECT    9   32
+CONECT    1    2    6    7    8
+CONECT    1   24
+CONECT   12   18   13   17   19
+CONECT   12   35
+CONECT   18   12   17   21   22
+CONECT   18   41
+CONECT    7    1    6   10   11
+CONECT    7   30
+CONECT   24    1
+CONECT   25    2
+CONECT   26    3
+CONECT   27    4
+CONECT   28    5
+CONECT   29    6
+CONECT   30    7
+CONECT   31    8
+CONECT   32    9
+CONECT   33   10
+CONECT   34   11
+CONECT   35   12
+CONECT   36   13
+CONECT   37   14
+CONECT   38   15
+CONECT   39   16
+CONECT   40   17
+CONECT   41   18
+CONECT   42   19
+CONECT   43   20
+CONECT   44   21
+CONECT   45   22
+END
