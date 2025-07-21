@@ -168,6 +168,6 @@ cython_debug/
 *.pkl
 
 # all simulations
-./simulations/*
-./scripts/cosan_md.ipynb
-./scripts/water_md.ipynb
+simulations/*
+scripts/cosan_md.ipynb
+scripts/water_md.ipynb
