@@ -1,0 +1,7 @@
+source leaprc.water.tip3p
+
+WAT = loadmol2 single_water.mol2
+solvatebox WAT TIP3PBOX 9.0
+savepdb WAT water_box.pdb
+
+quit

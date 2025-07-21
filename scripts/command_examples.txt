@@ -1,0 +1,25 @@
+# examples showing how to use the CLI tool
+
+1. Activate the conda venv that contains the model(s) to be used.
+2. cd to the scripts directory
+3. See all CLI flags and options with `python cosan_md.py --help`
+
+
+# EXEMPLES
+
+# single water molecule, MACE, cpu, 10 ns, 300 K
+python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300
+
+# water box, MACE, cpu, 10 ns, 300 K, 1 bar
+python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
+
+# single COSAN cluster, MACE, cpu, 10 ns, 300 K
+python cosan_md.py -m MACE -a cosan -d cpu -l 10 -t 300
+
+# solvated COSAN, MACE, cpu, 10 ns, 300 K, 1 bar
+python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
+
+
+# NOTE
+# before running the simulation a short summary of the system, and MD settings is displayed, make sure to review and check these before committing to running the simulation!
+

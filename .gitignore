@@ -167,5 +167,7 @@ cython_debug/
 # Pickle files
 *.pkl
 
-# MLIP models
-
+# all simulations
+./simulations/*
+./scripts/cosan_md.ipynb
+./scripts/water_md.ipynb

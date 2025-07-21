@@ -1,0 +1,9 @@
+source leaprc.water.tip3p
+
+COS = loadpdb cosan_void_chimera.pdb 
+
+solvatebox COS TIP3PBOX 10.0
+addions COS Na+ 1
+
+savepdb COS cosan_solv_ion.pdb
+quit
