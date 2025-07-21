@@ -169,5 +169,3 @@ cython_debug/
 
 # all simulations
 simulations/*
-scripts/cosan_md.ipynb
-scripts/water_md.ipynb
