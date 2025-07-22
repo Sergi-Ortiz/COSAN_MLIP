@@ -556,8 +556,8 @@ K = int(sim_length)                         # simulation fragments (1 ns each)
 save_int = 100                              # save every 0.1 ps (beware of temporal self-correlation)
 
 # equilibration parameters
-nvt_eq_steps = 500 * 1000                   # 0.5 ns NVT equilibration
-npt_eq_steps = 500 * 1000                   # 0.5 ns NPT equilibration
+nvt_eq_steps = 0.5 * 10e6                   # 0.5 ns NVT equilibration
+npt_eq_steps = 0.5 * 10e6                   # 0.5 ns NPT equilibration
 
 
 # HOPE I DONT HAVE TO TOUCH THIS EVER
@@ -614,5 +614,5 @@ if bool_solv:
     NPT_equilibration(atoms, npt_eq_steps, dt, temp, pressure, sim_path, sim_name, save_int)
 
 # NVT production run of desired length
-NVT_prod(atoms, sim_length, dt, temp, sim_path, sim_name, save_int)
+NVT_prod(atoms, sim_steps, dt, temp, sim_path, sim_name, save_int)
 print('Finished!')
