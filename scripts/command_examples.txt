@@ -2,22 +2,22 @@
 
 1. Activate the conda venv that contains the model(s) to be used.
 2. cd to the scripts directory
-3. See all CLI flags and options with `python cosan_md.py --help`
+3. See all CLI flags and options with `python mlip_md.py --help`
 
 
 # EXEMPLES
 
 # single water molecule, MACE, cpu, 10 ns, 300 K
-python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300
+python mlip_md.py -m MACE -a water -d cpu -l 10 -t 300
 
 # water box, MACE, cpu, 10 ns, 300 K, 1 bar
-python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
+python mlip_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
 
 # single COSAN cluster, MACE, cpu, 10 ns, 300 K
-python cosan_md.py -m MACE -a cosan -d cpu -l 10 -t 300
+python mlip_md.py -m MACE -a cosan -d cpu -l 10 -t 300
 
 # solvated COSAN, MACE, cpu, 10 ns, 300 K, 1 bar
-python cosan_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
+python mlip_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
 
 
 # NOTE
