@@ -117,6 +117,12 @@ parser.add_argument(
     required=False,
     help='Pressure of NPT relaxations (in bar) (only solvated systems). Default 1 bar.',
 )
+parser.add_argument(
+    '-r', '--restart', 
+    default=None,
+    required=False,
+    help='Restart the simulation from a given .traj file (production only). Same settings must be used. Default: None. Requires the absolute path to the .traj from which to restart.'
+)
 
 # obtain the arguments
 args = parser.parse_args()
@@ -130,6 +136,7 @@ bool_solv = args.solvation
 sim_length = args.length
 temp = args.temperature
 pressure = args.pressure
+restart_file = args.restart
 
 
 #
@@ -560,11 +567,11 @@ nvt_eq_steps = 0.5 * 10e6                   # 0.5 ns NVT equilibration
 npt_eq_steps = 0.5 * 10e6                   # 0.5 ns NPT equilibration
 
 
-# HOPE I DONT HAVE TO TOUCH THIS EVER
+# TODO TEST RESTART CAPABILITIES USING 
 restart = False
-restart_file = ''
-if restart:
-    print(f'restarting from {restart_file}')
+if restart_file is not None:
+    restart = True
+
 
 
 #===============================#
@@ -591,6 +598,9 @@ print(f'Total steps: {sim_steps}')
 print(f'Temperature: {temp} (K)')
 if bool_solv:
     print(f'Pressure:    {pressure} (bar)')
+if restart:
+    print('\n')
+    print(f'restarting from {restart_file}')
 print('\n\n')
 
 

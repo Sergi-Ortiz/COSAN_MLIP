@@ -20,6 +20,10 @@ python mlip_md.py -m MACE -a cosan -d cpu -l 10 -t 300
 python mlip_md.py -m MACE -a water -d cpu -l 10 -t 300 -p 1.0 -v True
 
 
+# always use to log all the stdout to a file (contains all simulation info)
+python <SIM_OPTIONS> 2>&1 | tee <log_file>.txt (&) 
+
+
 # NOTE
 # before running the simulation a short summary of the system, and MD settings is displayed, make sure to review and check these before committing to running the simulation!
 
